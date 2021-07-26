@@ -1,0 +1,999 @@
+/**** Made by Tin ***/
+/********* All css elements that apply to all mode will appear here :)) *********/
+/***** Blue Icon (Headline based) ****/
+
+          .blue-icon {
+           height: 3px;
+           width: 35px;
+         }
+    /****** Business-section (For all width) ******/
+	.business-section {
+		flex-direction: row-reverse!important;
+	}
+    /***** Img of course ********/
+	img{
+		width: 100%;
+	}
+
+	.article {
+		display: block;
+	} 
+/*************** End All css elements..... *********/
+
+/****** Mobile ******/
+/**** Mobile - Navbar ******/
+
+
+/******* Navbar - Page Title ******/
+.navbar-brand {
+color: #0072d3 !important;
+font-weight: bold;
+}
+
+/********* Navbar - Background color ********/
+@media only screen and (max-width:767px) {
+	.bg-light {
+		background-color: white !important;
+	  }
+}
+
+/******** Banner Image ********/
+
+@media only screen and (max-width:767px) {
+.banner-container {
+	border: 1px transparent;
+    width: 100% !important;
+	height: auto !important; 
+}
+}
+
+@media only screen and (max-width:767px) {
+.banner {
+	width: 100% !important;
+	height: 100% !important;
+}
+}
+
+/*******  Navbar - Link ***********/
+.navbar-nav .nav-link {
+text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover {
+text-transform: capitalize;
+color: #f28500 !important;
+}
+/**** End Mobile - Navbar ****/
+
+/******* Start Mobile - About Us ******/
+/******** Mobile - About US - Page Title *******/
+@media only screen and (max-width: 767px) {
+#aboutus-page-title {
+font-weight: 100;
+font-size:small;
+}
+}
+/****** Blue Icon (About us) ******/
+@media only screen and (max-width: 767px) {
+.aboutus-blue-icon {
+	margin-bottom: 10px;
+	margin-right: 6px;
+}
+}
+/******* Mobile - About Us - Image *******/
+@media only screen and (max-width:767px) {
+.aboutus-img-container {
+	border: 1px transparent;
+    width: 100% !important;
+	height: auto !important; 
+}
+}
+/****** Mobile - About Us - Image *****/
+@media only screen and (max-width:767px) {
+	.aboutus-img {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	}
+/***** Mobile - Education & Business Consulting *****/
+/***** Education & Business backgournd Image section in note *****/
+@media only screen and (max-width:767px) {
+	#education {
+		background-image: url(/images/education\ consulting.jpg);
+			background-color: #cccccc;  
+			background-position: center; 
+			background-repeat: no-repeat;  
+			background-size: cover; 
+			height:300px;
+			width: 100%;
+	}
+	}
+		/******** Tablets & Mobile - Business - Background Image (Business Image with texts) *******/
+		@media only screen and (max-width:767px) {
+			#business {
+				background-image: url(/images/Communication.jpg);
+					background-color: #cccccc;  
+					background-position: center; 
+					background-repeat: no-repeat;  
+					background-size: cover; 
+					color: white;
+			}
+		}
+/**** TO EDIT A LITTLE BIT (BTW THIS PAGE IS MADE BY TIN :)))))
+ Note: This is included in (----tablet----edu&bus) section ******/
+ /**** Content in business section ******/
+/****** Business - Page Title *****/
+@media only screen and (max-width: 767px) {
+#businessneducation-page-title {
+  font-size: 2.7vw;
+}
+}
+/***** Mobile - Business - Blue icon ********/
+@media only screen and (max-width: 767px) {
+.business-blue-icon {
+	margin-right: 6px;
+	margin-top: 3%;
+	width: 15%;
+}
+}
+/****** Title - Mobile - Business *****/
+@media only screen and (max-width: 767px) {
+	.business-title-container {
+		position: relative;
+		left: 35%;
+		margin-top: 15%;
+		margin-bottom: 10%;
+		display: flex;
+		flex-direction: row;
+		width: 50%;
+	}
+}
+ /********** Image - Mobile - Business (Apply for 2 images) *******/
+@media only screen and (max-width: 767px) {
+#business .business-image {
+border-radius: 50%;
+height: 10%!important;
+width: 15%!important;
+border: 1px transparent;
+margin-top: 20%;
+}
+}
+
+/********* Business - Para ****/
+/****** Business - Para - Title ******/
+@media only screen and (max-width: 767px) {
+.business-para h4 {
+ text-align: center;
+font-size: 6vw;
+font-weight: bold;
+}
+}
+/******** Business - Para - Content *****/
+@media only screen and (max-width:767px) {
+.business-para p {
+	text-align: center;
+	font-size: 3.5vw;
+}
+}
+/******* Business - Para - Container ********/
+@media only screen and (max-width: 767px) {
+.business-para-container {
+	width: 50%;
+	margin-right: 7%;
+	margin-left: 15%;
+}
+}
+/********** End (Business - Para) ********/
+/****** Business - Align between sections *******/
+@media only screen and (max-width: 767px) {
+.business-section1 {
+margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.business-bottom {
+	margin-top: 30px;
+}
+}
+/***** End (Business % Education Consulting) ******/
+
+/******* Start (News) *****/
+/*******  ******/
+@media only screen and (max-width: 767px) {
+	.news-headline-container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+/***** Text with blye icon *News* - Mobile ****/
+@media only screen and (max-width: 768px) {
+	#newsheadline {
+    font-weight: 100;
+    font-size: medium;
+	}
+}
+/******* News - Blue Icon - Mobile *******/
+@media only screen and (max-width: 768px) {
+	.news-blue-icon {
+		margin-top: 10px;
+	}
+}
+
+/******* Text for "lastest News" *****/
+@media only screen and (max-width: 768px) {
+	.news-title {
+		margin-bottom: 10px;
+	}
+}
+
+/**** News *Divided  in to article* *****/
+@media only screen and (max-width: 768px) {
+	.article {
+		width: 100%;
+		border: 1px solid #cdcdcd;
+		margin-bottom: 20px;
+	}
+}
+/***** (News) _ The long article ********/
+@media only screen and (max-width: 768px) {
+	.article3 {
+	    margin-bottom: 0;
+	}
+}
+/***** News - Aritcle - Hover effect *****/
+@media only screen and (max-width: 768px) {
+	.article:hover {
+		border: 2px solid #adadad;
+		background-color: #f7f7f7;
+		transform: scale(1.03);
+		box-shadow: 0px 0px 10px 0px;
+		cursor: pointer;
+	}
+}
+/******* News - Title of each article ******/
+@media only screen and (max-width: 768px) {
+	.news-article-headline {
+		font-size: 5vw;
+		color: black;
+	}
+}
+/******* News - title of long article ****/
+@media only screen and (max-width: 768px) {
+	#news-article3-para {
+		font-size: 4vw;
+		font-weight: 400;
+		color: black;
+	}
+}
+/***** Container (Read more text and icon => )********/
+@media only screen and (max-width: 768px) {
+	.news-read-more-container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+/******** Text read more - News *****/
+@media only screen and (max-width: 768px) {
+	.read-more {
+		margin-right: 1%;
+	}
+}
+/**** all stuff in an article beside img - news - mobile *******/
+@media only screen and (max-width: 768px) {
+	.news-article-content-container {
+		margin-left: 2%;
+		margin-top: 2%;
+	}
+}
+
+/****** End (News) - Mobile ****/
+/***** Start (News) - Mobile ******/
+/****** Contacts - Headline and blue icon container ******/
+@media only screen and (max-width: 768px) {
+	.contacts-headline-container {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 16px;
+	}
+}
+/****** Contacts - Blue Icon *****/
+@media only screen and (max-width: 768px) {
+	.contacts-blue-icon {
+		margin-top: 10px;
+	}
+}
+/****** Contacts - Headline (Bookmark) *****/
+@media only screen and (max-width: 768px) {
+	#contactsheadline {
+		font-weight: 100;
+		font-size: medium;
+	}
+}
+/***** Contacts - Input Container *****/
+@media only screen and (max-width: 768px) {
+	.contacts-form-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+/****** Contacts - Input ****/
+@media only screen and (max-width: 766px) {
+	.contacts-form {
+		margin-bottom: 15px;
+	    border: 1px solid #c7c7c7;
+	}
+}
+/****** Contacts - Input (Number) *******/
+@media only screen and (max-width: 768px) {
+	#contacts-number-form {
+		margin-bottom: 25px;
+	}
+}
+/******** Contacts - Input (Message) *******/
+@media only screen and (max-width: 768px) {
+	#contacts-message-form {
+		margin-bottom: 7px;
+	}
+}
+/******* Contacts - Button *******/
+@media only screen and (max-width: 768px) {
+	#contacts-button {
+		background-color: #ffb400;
+		color: white;
+		border: none;
+		border-radius: 7%;
+		display: inline-block;
+		padding: 10px;
+		text-align: center;
+		width: 45%;
+		margin-left: 25%;
+		font-size: 3vw;
+	}
+}
+/******** Contacts - Everything except img and button *****/
+@media only screen and (max-width: 768px) {
+	.contacts-content-container {
+		margin-bottom: 35px;
+	}
+}
+/****** Contacts - Text to describe ******/
+@media only screen and (max-width: 768px) {
+    #contacts-des {
+		font-size: 5vw;
+	}
+}
+
+/****** End (Contacts) ******/
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/********* Start Tablet ********/
+/******* Tablet - Navbar *********/
+
+/******* Page Title - Tablet *********/
+
+@media only screen and (min-width:768px) {
+	.navbar-brand {
+		color: white !important;
+		margin-left: 10%;
+	}
+}
+
+/***** List - Margin - Tablet *********/
+@media only screen and (min-width:768px) {
+.navbar-nav {
+margin-right: 13%;
+}
+}
+
+/******** Search Icon - Margin - Tablet *******/
+@media only screen and (min-width:768px) {
+.fa-search {
+position: relative;
+right: 9%;
+}
+}
+
+/********* Tablet - Banner ********/
+
+@media only screen and (min-width:768px) {
+	.banner-container {
+		border: 1px transparent;
+		width: 100% !important;
+		height: auto !important; 
+	}
+	}
+	
+	@media only screen and (min-width:768px) {
+	.banner {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	}
+	
+
+	/********* Navbar - Background color ********/
+@media only screen and (min-width:768px) {
+	.bg-light {
+		background-color: #0072d3 !important;
+			width: 100%;
+			height: auto;
+	}
+			}
+/*********** Tablet - About Us - Image ************/
+			@media only screen and (min-width:768px) {
+				.aboutus-img-container {
+					border: 1px transparent;
+					width: 100% !important;
+					height: auto !important; 
+				}
+				}
+				
+				@media only screen and (min-width:768px) {
+					.aboutus-img {
+						width: 100% !important;
+						height: 100% !important;
+					}
+					}
+
+
+/*************** Tablet - About Us - Text  *******/
+/******** Tablet - About US - Text - Section Title ******/
+@media only screen and (min-width:768px) {
+#aboutus-page-title {
+	font-weight: 100 !important;
+	font-size: small !important;
+}
+}
+
+@media only screen and (min-width: 768px) {
+	.aboutus-blue-icon {
+		margin-bottom: 10px;
+		margin-right: 6px;
+	}
+	}
+					
+/********* Tablet - Education & Business Consulting **********/
+/******** Tablets & Mobile- Education (Image)******/
+@media only screen and (min-width:768px) {
+	#education {
+		background-image: url(/images/education\ consulting.jpg);
+			background-color: #cccccc;  
+			background-position: center; 
+			background-repeat: no-repeat;  
+			background-size: cover; 
+			height:800px;
+			width:100%;
+	}
+	}
+	
+		/******** Tablets & Mobile - Business - Background Image (Business Image with texts) *******/
+	@media only screen and (min-width:768px) {
+			#business {
+				background-image: url(/images/Communication.jpg);
+					background-color: #cccccc;  
+					background-position: center; 
+					background-repeat: no-repeat;  
+					background-size: cover; 
+					height:300px;
+					width:100%;
+					color: white;
+			}
+		}
+
+		 /********** Image - Mobile - Business (Apply for 2 images) *******/
+@media only screen and (min-width: 768px) {
+	#business .business-image {
+	border-radius: 50%;
+	height: 13%!important;
+	width: 7%!important;
+	border: 1px transparent;
+	margin-top: 10px;
+	margin-right: 20px;
+	}
+	}
+
+	/***** Business - Content - Tablet *****/
+	/******* Business - Content - Bottom ******/
+	@media only screen and (min-width: 768px) {
+		.business-bottom {
+			margin-top: 15px;
+		}
+		}
+    /****** Business - Content Container *****/
+@media only screen and (min-width: 768px) {
+	.business-content-container {
+		margin-top: 60px;
+	}
+}
+
+/******* Business - Section (! PARA + ! IMG) *****/
+/***** (1) ****/
+@media only screen and (min-width: 768px) {
+	.business-section1 {
+		width: 680px;
+	}
+}
+
+/****** (2) ********/
+@media only screen and (min-width: 768px) {
+.business-section2 {
+         width: 680px;
+}
+}
+/******* Business - Page Title - Tablet ******/
+
+@media only screen and (min-width: 768px) {
+	.business-blue-icon {
+		margin-right: 11px;
+		margin-top: 7px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.business-title-container {
+		position: relative;
+		left: 5%;
+		top: 15%;
+		width: 50%;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+
+
+/****** End Business - Tablet *****/
+/*** Start (News) - Tablet *****/
+/******* Start (News) *****/
+/******* News - Headline (Container) ******/
+@media only screen and (min-width: 767px) {
+	.news-headline-container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+/***** News - Headline (Bookmark) ******/
+@media only screen and (min-width: 768px) {
+	#newsheadline {
+    font-weight: 100;
+    font-size: medium;
+	}
+}
+/****** News - Blue Icon *********/
+@media only screen and (min-width: 768px) {
+	.news-blue-icon {
+		margin-top: 10px;
+	}
+}
+
+/***** News - Title (Lastest News) *****/
+@media only screen and (min-width: 768px) {
+	.news-title {
+		margin-bottom: 10px;
+	}
+}
+
+/***** News - Article ****/
+@media only screen and (min-width: 768px) {
+	.article {
+		width: 100%;
+		border: 1px solid #cdcdcd;
+		margin-bottom: 20px;
+	}
+}
+/****** News - Article - Hover Effect ***/
+@media only screen and (min-width: 768px) {
+	.article:hover {
+		border: 2px solid #adadad;
+		background-color: #f7f7f7;
+		transform: scale(1.03);
+		box-shadow: 0px 0px 10px 0px;
+		cursor: pointer;
+	}
+}
+/******* News - Article - Headline(Title) *****/
+@media only screen and (min-width: 768px) {
+	.news-article-headline {
+		font-size: 3vw;
+		color: black;
+	}
+}
+/****** News - Long Article - Para *****/
+@media only screen and (min-width: 768px) {
+	#news-article3-para {
+		font-size: 2vw;
+		font-weight: 400;
+		color: black;
+	}
+}
+/******* News - Read More (Container) *TEXT AND ICON* *****/
+@media only screen and (min-width: 768px) {
+	.news-read-more-container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+/****** News - Read More (TEXT) ******/
+@media only screen and (min-width: 768px) {
+	.read-more {
+		margin-right: 1%;
+	}
+}
+/******* News - Article - Everything except img ******/
+@media only screen and (min-width: 768px) {
+	.news-article-content-container {
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+}
+/***** News - Article *****/
+@media only screen and (min-width: 768px) {
+	.article {
+		margin: 0;
+	}
+}
+
+/****** End (News) - Tablet & some laptops attribute *****/
+/******* Start (Contacts) - Tablet *****/
+/****** Contacts  - Headline(Bookmark) *****/
+@media only screen and (min-width: 768px) {
+	#contactsheadline {
+		font-size: medium;
+		font-weight: 100;
+	}
+}
+/**** Contacts - Text ******/
+@media only screen and (min-width: 768px) {
+	#contacts-des {
+		font-size: 3vw;
+	}
+}
+/***** Contacts - Input(container)  *****/
+@media only screen and (min-width: 768px) {
+	.contacts-form-container {
+		display: flex;
+		flex-direction: column;
+	}
+}
+/***** Container - Headline (container contains text and blue icon )******/
+@media only screen and (min-width: 768px) {
+	.contacts-headline-container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+/***** Contacts - Blue Icon ****/
+@media only screen and (min-width: 768px) {
+	.contacts-blue-icon {
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+}
+/****** Contacts - Input ****/
+@media only screen and (min-width: 768px) {
+	.contacts-form {
+		margin-bottom: 18px;
+		border: 1px solid #c7c7c7 ;
+	}
+}
+/******* Contacts - Input (Type: Number) ******/
+@media only screen and (min-width: 768px) {
+	#contacts-number-form {
+		margin-bottom: 30px;
+	}
+}
+/******** Contacts - Input(Type: Message) *****/
+@media only screen and (min-width: 768px) {
+	#contacts-message-form {
+		margin-bottom: 5px;
+	}
+}
+/******** Contacts - Button *******/
+@media only screen and (min-width: 768px) {
+	#contacts-button {
+		background-color: #ffb400;
+		color: white;
+		border: none;
+		border-radius: 7%;
+		display: inline-block;
+		padding: 10px;
+		text-align: center;
+		width: 45%;
+		margin-left: 25%;
+		font-size: 2vw;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** End Tablet *************/
+
+/************ Start Laptops & Desktops ********/
+/********** About Us - Laptops & Desktops ********/
+/****** About Us - Laptops & Desktops - Container *****/
+@media only screen and (min-width:992px) {
+.aboutus-container {
+width: 65%;
+}
+}
+
+/********** About Us - Laptops & Desktops - Page title *******/
+@media only screen and (min-width: 992px) {
+	.aboutus-blue-icon {
+		margin-bottom: 10px;
+		margin-right: 6px;
+	}
+	}
+
+/********** Education & Business Consulting - laptops & Desktops *****/
+/*********** Education Consulting - Laptops & Desktops ********/
+/******** Laptops & Desktops - Education (Image)******/
+
+@media only screen and (min-width:992px) {
+#education {
+	background-image: url(/images/education\ consulting.jpg);
+		background-color: #cccccc;  
+		background-position: center; 
+		background-repeat: no-repeat;  
+		background-size: cover; 
+		height:500px;
+		width:100%;
+		position: relative;
+}
+}
+
+	/******** Desktops & Laptops - Business - Background Image (Business Image with texts) *******/
+@media only screen and (min-width:992px) {
+		#business {
+		background-image: url(/images/Communication.jpg);
+		background-color: #cccccc;  
+		background-position: center; 
+		background-repeat: no-repeat;  
+		background-size: cover;
+		height:500px;
+		width:100%;
+		position: relative;
+		}
+	}
+/****** Desktops % Laptops - Business- Title (Container contains text and blue icon) ******/
+	@media only screen and (min-width: 992px) {
+			.business-title-container {
+				position: relative;
+				top: 10%;
+		}
+	}
+/****** Desktops % laptops - Business - Section (contains para and img) ******/
+	@media only screen and (min-width: 992px) {
+           .business-section {
+			   margin-left: 5%;
+			   position: relative;
+			   right: 10%;
+			   width: 75%;
+		   }
+	}
+/******* Desktops % Laptops - Business - Image (in .business-section) *****/
+	@media only screen and (min-width: 992px) {
+		#business .business-image {
+			width: 11%!important;
+			height: 15%!important;
+		}
+	}
+
+	@media only screen and (min-width: 1900px) {
+		.business-section {
+			width: 65%;
+		}
+	}
+
+	/**** End (Business) - Laptop ****/
+	/**** Start (News) - Laptop *****/
+	/****** News css for laptop is based on tablet css news section. Check it at tablet section ******/
+	/******* Some changes for laptop will appear here *****/
+/********* News - Container (except news headline) *******/
+	@media only screen and (min-width: 992px) {
+		.news-container {
+			width: 65%;
+		}
+	}
+/****** News - Container container (outside news create a container to make it appear in mid) *****/
+	@media only screen and (min-width: 992px) {
+		.news-headline-container-container {
+			width: 65%;
+		}
+	}
+/******* News - Long article - Para ********/
+	@media only screen and (min-width: 992px) {
+		#news-article3-para {
+			font-size: 1vw;
+			font-weight: 400;
+			color: black;
+		}
+	}
+/******** News - Article - Headline *****/
+	@media only screen and (min-width: 992px) {
+		.news-article-headline {
+			font-size: 1.8vw;
+			color: black;
+		}
+	}
+
+   /****** End (News) *****/
+   /******** STart (Contacts) - Laptop *****/
+   /******** //Only in Laptop mode// *******/
+   @media only screen and (min-width: 992px) {
+	.contacts-laptop-row-form {
+		width: 28%;
+		position: absolute;
+		
+	}
+}
+/******* Contacts - Input (Type: Email) ******/
+@media only screen and (min-width: 992px) {
+	#contacts-email-form {
+		margin-left: 32%;
+	}
+}
+/***** Contacts - Input(Type: Number) *****/
+@media only screen and (min-width: 992px) {
+	#contacts-number-form {
+		margin-left: 64%;
+	}
+}
+/******* Contacts - Input(Type: Message) *****/
+@media only screen and (min-width: 992px) {
+	#contacts-message-form {
+		margin-top: 85px;
+		width: 110%;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	#contacts-message-form {
+		margin-top: 85px;
+		width: 105%;
+	}
+}
+
+
+@media only screen and (min-width: 1500px) {
+	#contacts-message-form {
+		margin-top: 85px;
+		width: 101%;
+	}
+}
+
+/****** Contacts - Outside Container ******/
+@media only screen and (min-width: 992px) {
+    .contacts-container {
+       width: 65%;
+	}
+}
+/****** Contacts - Button ******/
+@media only screen and (min-width: 992px) {
+	#contacts-button {
+		font-size: 1.5vw;
+		margin-left: 87%;
+	}
+}
+/****** Contacts - Text description ****/
+@media only screen and (min-width: 992px) {
+	#contacts-des {
+		font-size: 1.5vw;
+	}
+}
+
+/***** End (BODY) *****/
+/****** Start (Footer) ****/
+/****** Apply for all width *****/
+/**** define bckgr color and text color ***/
+.footer-background {
+	background-color: #1b1919;
+	color: white;
+}
+/***** upper footer container *****/
+.footer-copyright-container {
+	margin-top: 1px;
+}
+ /****** Copyright text ******/
+	#page-copyright {
+		text-align: center;
+		margin-top: 10px;
+	}
+/******* define for list in lang and bookmarks ******/
+	.footer-list{
+		list-style: none;
+	}
+/***** List heading *****/
+	.footer-list-heading {
+		position: relative;
+		right: 20px;
+	}
+/****** define the list style type (custom) *****/
+	.footer-list li::before {
+		content: "";
+		border-color: 	transparent #D3D3D3;
+		border-style: solid;
+		border-width: 5.6px 0px 5.6px 7.2px;
+		display: block;
+		height: 0;
+		width: 0;
+		position: relative;
+		left: -16px;
+		top: 18.4px;
+	}
+/**** Color of bookmarks (a tag) ****/
+	.footer-list li a {
+		color:	#D3D3D3;
+	}
+/*** Top and bottom of footer ****/
+	.footer-top {
+		width: 100%;
+		height: 60px;
+	}
+
+	.footer-bottom {
+		width: 100%;
+		height: 20px;
+	}
+/****** 4th col in footer (only input form) ******/
+	.footer-get-news-form-container {
+		display: flex;
+		flex-direction: row;
+	}
+ /******* Define the input and button *******/
+	#footer-get-news-input {
+		padding: 0px 0px 7px 0px;
+		background-color: #1b1919;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		width: 100%;
+		color: white;	
+	}
+
+	/****** End (Footer) ****/
+
+
+
+	/****** 1000 code :)) ****/
