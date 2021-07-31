@@ -1,4 +1,3 @@
 # crevea-inc-website
-html and css project duh
-</hr>
-in progress, please don't ask me any question
+**LINK WEBSITE**:
+http://crevea-inc-hvtinnt.000webhostapp.com/index.html
